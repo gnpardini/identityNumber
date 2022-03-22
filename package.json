@@ -1,0 +1,21 @@
+{
+  "name": "person",
+  "version": "1.0.0",
+  "description": "Let's create a class called Person. Its attributes are: name, age and ID. \r Construct the following methods for the class:\r     A constructor, where the data can be empty.\r     You have to validate the data entries.\r     show(): Shows the person's data.\r     overAge(): Returns a logical value indicating if it is of legal age.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gisela Nahir Pardini",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}
