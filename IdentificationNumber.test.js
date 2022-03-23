@@ -45,7 +45,7 @@ test('should return letter K when the quotient of the division of the ID number 
     expect(dniLetter).toBe('K')
 });
 
-test('should return null when the quotient of the division of the ID number is 13', () => {
+test('should return null when the quotient of the division of the ID number is 22', () => {
     const dni =  -38125926
     const identificationNumber = new IdentificationNumber(dni);
 
@@ -64,7 +64,7 @@ test('should return false if dni letter is not the same the the entered', () => 
     expect(isTheSameLetter).toBe(false)
 });
 
-test('should return true if dni letter the same the the entered', () => {
+test('should return true if dni letter is the same the the entered', () => {
     const dni =  38125926
     const enteredLetter = 'K';
     const identificationNumber = new IdentificationNumber(dni);
